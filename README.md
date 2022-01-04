@@ -1,3 +1,5 @@
+just a minor update for use with ios 15. for my personal project.
+
 <p align="center">
   <img
     alt="RxBluetoothKit library logo"

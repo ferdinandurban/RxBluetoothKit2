@@ -948,6 +948,8 @@
 			dependencies = (
 			);
 			name = "RxBluetoothKit iOS";
+			packageProductDependencies = (
+			);
 			productName = "RxBluetoothKit iOS";
 			productReference = 2666FD841CCE457C005E81CE /* RxBluetoothKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -1059,6 +1061,8 @@
 				Base,
 			);
 			mainGroup = A1299BB31CBE3D52005DEA5B;
+			packageReferences = (
+			);
 			productRefGroup = A1299BBE1CBE3D52005DEA5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

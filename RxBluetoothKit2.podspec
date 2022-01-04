@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name             = "RxBluetoothKit2"
-  s.version          = "6.0.1-rc1"
+  s.version          = "6.0.1"
   s.summary          = "Bluetooth library for RxSwift"
 
   s.description      = "RxBluetoothKit is lightweight and easy to use Rx support for CoreBluetooth. Minor update for use with iOS15"
 
-  s.homepage         = "https://github.com/ferdinandurban/RxBluetoothKit"
+  s.homepage         = "https://github.com/ferdinandurban/RxBluetoothKit2"
   s.license          = 'Apache License, Version 2.0.'
   s.author           = { "Przemysław Lenart" => "przemek.lenart@polidea.com", "Kacper Harasim" => "kacper.harasim@polidea.com", "Michał Laskowski" => "michal.laskowski@polidea.com", "Paweł Janeczek" => "pawel.janeczek@polidea.com", "Bartosz Stelmaszuk" => "bartosz.stelmaszuk@polidea.com" }
-  s.source           = { :git => "https://github.com/ferdinandurban/RxBluetoothKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ferdinandurban/RxBluetoothKit2.git", :tag => s.version.to_s }
   s.social_media_url = ''
 
   s.ios.deployment_target = '9.0'
