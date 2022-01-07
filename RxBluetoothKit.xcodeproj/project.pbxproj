@@ -1607,6 +1607,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-Wl,-no_compact_unwind";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-watchOS";
 				PRODUCT_NAME = RxBluetoothKit;
 				SDKROOT = watchos;
@@ -1644,6 +1645,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-Wl,-no_compact_unwind";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-watchOS";
 				PRODUCT_NAME = RxBluetoothKit;
 				SDKROOT = watchos;
