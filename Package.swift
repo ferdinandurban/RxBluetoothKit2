@@ -4,15 +4,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "RxBluetoothKit",
+    name: "RxBluetoothKit2",
     platforms: [
         .macOS(.v10_13), .iOS(.v9), .tvOS(.v11), .watchOS(.v4)
     ],
     products: [
-        .library(name: "RxBluetoothKit", targets: ["RxBluetoothKit"])
+        .library(name: "RxBluetoothKit2", targets: ["RxBluetoothKit2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.1.1"))
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0"))
     ],
     targets: [
         .target(

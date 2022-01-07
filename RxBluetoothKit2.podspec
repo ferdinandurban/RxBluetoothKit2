@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = "RxBluetoothKit2"
   s.version          = "6.0.1"
   s.summary          = "Bluetooth library for RxSwift"
-
+                      
   s.description      = "RxBluetoothKit is lightweight and easy to use Rx support for CoreBluetooth. Minor update for use with iOS15"
 
   s.homepage         = "https://github.com/ferdinandurban/RxBluetoothKit2"
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/*.swift'
   s.osx.exclude_files = 'Source/RestoredState.swift', 'Source/CentralManager+RestoredState.swift', 'Source/CentralManagerRestoredState.swift'
   s.frameworks   = 'CoreBluetooth'
-  s.dependency 'RxSwift', '~> 5.1'
+  s.dependency 'RxSwift', '~> 6.2.0'
 end
