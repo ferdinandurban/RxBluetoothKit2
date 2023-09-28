@@ -12,11 +12,11 @@ let package = Package(
         .library(name: "RxBluetoothKit2", targets: ["RxBluetoothKit2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0"))
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.5.0"))
     ],
     targets: [
         .target(
-                name: "RxBluetoothKit",
+                name: "RxBluetoothKit2",
                 dependencies: [
                     "RxSwift"
                 ],
